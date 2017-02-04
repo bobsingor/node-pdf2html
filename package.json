@@ -19,6 +19,7 @@
   ],
   "dependencies": {
     "cheerio": "^0.22.0",
-    "humps": "^2.0.0"
+    "humps": "^2.0.0",
+    "phantom": "^4.0.0"
   }
 }
