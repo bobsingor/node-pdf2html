@@ -1,0 +1,20 @@
+{
+  "name": "pdf2html",
+  "version": "0.0.1",
+  "description": "A nodejs module for converting pdf 2 html",
+  "author": "Bob Singor <bob@singor.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/bobsingor/node-pdf2html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bobsingor/node-pdf2html.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bobsingor/node-pdf2html/issues"
+  },
+  "main": "index.js",
+  "keywords": [
+    "pdf converter",
+    "pdf to html"
+  ]
+}
