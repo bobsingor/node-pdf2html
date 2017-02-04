@@ -16,5 +16,8 @@
   "keywords": [
     "pdf converter",
     "pdf to html"
-  ]
+  ],
+  "dependencies": {
+    "cheerio": "^0.22.0"
+  }
 }
