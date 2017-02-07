@@ -1,0 +1,13 @@
+#!/usr/bin/env fontforge
+
+Open($1)
+
+# Try to re-create the hints:
+SelectAll()
+AutoHint()
+AutoInstr()
+
+# MSIE 8 requires that Family is a prefix of Fullname:
+SetTTFName(0x0409, 4, GetTTFName(0x0409, 1) + " " + GetTTFName(0x0409, 2))
+
+Generate($1:r + ".ttf")
